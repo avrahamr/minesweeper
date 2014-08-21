@@ -15,8 +15,9 @@ describe('Service: randomizer', function () {
     randomizer = _randomizer_;
   }));
 
-  it('should do something', function () {
-    expect(randomizer.someMethod()).toBe(42);
+  it('should return a number between 0 and 9', function () {
+    expect(randomizer.random(10)).toBeGreaterThan(-1);
+    expect(randomizer.random(10)).toBeLessThan(10);
   });
 
 });

@@ -1,3 +1,6 @@
 {
-  "general.YO": "Hello"
+  "minesweeper.start": "Please start! Click to reveal, right click to flag.",
+  "minesweeper.keep.going": "Keep going",
+  "minesweeper.win": "Congratulations, you win!!!",
+  "minesweeper.lost": "Sorry, you lost :-("
 }
